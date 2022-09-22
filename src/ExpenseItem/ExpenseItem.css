@@ -1,0 +1,12 @@
+:root {
+    --padding: 10px;
+}
+
+.header {
+    color: yellow;
+    padding-left: var(--padding);
+}
+.text {
+    color: blue;
+    padding-left: var(--padding);
+}
