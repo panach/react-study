@@ -1,12 +1,13 @@
-import "./ExpenseItem.css"
+import ExpenseDate from "./ExpenseDate";
+import "./ExpenseItem.css";
+
 function ExpenseItems (props) {
-    const month = props.date.toLocaleString('ko-KR', { month: 'long'});
-    return (
+   return (
         <>
             <h3 className="header">header</h3>
             <p className="text">{props.title}</p>
             <p className="text">{props.amount}</p>
-            <p className="text">{month}</p>
+            <ExpenseDate date={props.date}/>
         </>
     );
 };
