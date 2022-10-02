@@ -1,5 +1,5 @@
 import ExpenseDate from "./ExpenseDate";
-import Cart from "./cart";
+import Cart from "../UI/cart";
 
 import "./ExpenseItem.css";
 

@@ -1,4 +1,4 @@
-import Expense from "./conponenet/Expense";
+import Expense from "./conponenet/Expenses/Expense";
 
 function App() {
   const expenses = [
@@ -26,6 +26,7 @@ function App() {
     <div>
       <h2>Let's get started! 1</h2>
       <Expense items={expenses}  />
+      <a href="https://www.udemy.com/course/best-react/learn/lecture/28517211#overview">다음강좌</a>
     </div>
   );
 }
